@@ -14,3 +14,7 @@ class LoginPage:
     def get_error_message(self) -> str:
         """return error message if it appears"""
         return self.error_message.inner_text()
+
+    def navigate(self):
+        """Navigate to the login page."""
+        self.page.goto(self.url)
