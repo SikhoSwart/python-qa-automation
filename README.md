@@ -23,3 +23,12 @@ A robust, scalable test automation framework built with Python, demonstrating bo
 │   └── conftest.py      # Shared pytest fixtures (auth, setup/teardown)
 ├── pytest.ini           # Pytest configuration
 └── requirements.txt     # Project dependencies
+```
+
+## Continuous Integration
+This repository is integrated with GitHub Actions. On every push and pull request to the main branch, the pipeline automatically:
+
+1. Provisions an Ubuntu runner.
+2. Installs Python and dependencies.
+3. Installs Playwright Chromium browsers.
+4. Executes the full pytest suite.
