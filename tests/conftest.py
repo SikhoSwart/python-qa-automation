@@ -1,4 +1,3 @@
-
 import pytest
 from api_clients.booker_client import BookerClient
 

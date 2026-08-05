@@ -1,5 +1,3 @@
-# page_objects/inventory_page.py
-
 class InventoryPage:
     def __init__(self, page):
         self.page = page
